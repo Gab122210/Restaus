@@ -62,20 +62,21 @@
 
 .dropdown-menu-do {
   position: absolute;
-  margin-top: 1.3rem;           /* mt-6 */
-  width: 1000px;               /*  w-[174px] */
-  height: 30rem;                 /* h-24 */
-  background: #000;             /* bg-black */
-  display: flex;                /* flex */
-  justify-content: center;      /* justify-center */
-  align-items: center;          /* items-center */
-  border-radius: 0.125rem;      /* rounded-sm */
-  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1); /* shadow-lg */
-  opacity: 0;                   /* opacity-0 */
-  transition: opacity 0.2s;     /* transition-all duration-200 */
-  z-index: 10;                  /* z-10 */
-  visibility: hidden;           /* invisible */
-  left: -20px;                  /*left-[-20px] */
+  margin-top: 1.3rem;    
+  width: 1000px;         
+  /* min-width: 100px;          */
+  height: 30rem;          
+  background: #000;         
+  display: flex;              
+  justify-content: center;    
+  align-items: center;       
+  border-radius: 0.125rem;    
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+  opacity: 0;              
+  transition: opacity 0.2s;    
+  z-index: 50;                
+  visibility: hidden;          
+  left: -20px;                
 }
 
 .group:hover .dropdown-menu-do,
